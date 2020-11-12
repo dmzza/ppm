@@ -2,16 +2,15 @@
   "name": "ppm",
   "version": "1.0.0",
   "scripts": {
-    "start": "blitz start",
+    "blitz": "PATH=/sandbox/node_modules/node/node_modules/.bin:$PATH blitz",
+    "start": "PATH=/sandbox/node_modules/node/node_modules/.bin:$PATH && blitz db migrate && blitz start",
     "studio": "blitz db studio",
     "build": "blitz build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "browserslist": [
-    "defaults"
-  ],
+  "browserslist": ["defaults"],
   "prisma": {
     "schema": "db/schema.prisma"
   },
@@ -26,14 +25,13 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "eslint --fix"
-    ]
+    "*.{js,ts,tsx}": ["eslint --fix"]
   },
   "dependencies": {
     "@prisma/cli": "2.11.0",
     "@prisma/client": "2.11.0",
     "blitz": "0.25.0-canary.6",
+    "node": "15.1.0",
     "react": "0.0.0-experimental-4ead6b530",
     "react-dom": "0.0.0-experimental-4ead6b530",
     "react-error-boundary": "2.3.2",
