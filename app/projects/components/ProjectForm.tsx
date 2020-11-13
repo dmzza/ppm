@@ -14,8 +14,8 @@ const ProjectForm = ({ initialValues, onSubmit }: ProjectFormProps) => {
       }}
     >
       <div>
-        <input placeholder="Project Name" />
-        <input type="color" placeholder="#333333" list="brights" />
+        <input value={initialValues.name} placeholder="Project Name" />
+        <input value={initialValues.color} type="color" placeholder="#333333" list="brights" />
         <datalist id="brights">
           <option>#FF9191</option> /* hsl(359, 100%, 78%) */
           <option>#BF91FF</option> /* hsl(265, 100%, 78%) */

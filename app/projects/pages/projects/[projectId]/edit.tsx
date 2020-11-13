@@ -14,7 +14,6 @@ export const EditProject = () => {
   return (
     <div>
       <h1>Edit Project {project.id}</h1>
-      <pre>{JSON.stringify(project)}</pre>
 
       <ProjectForm
         initialValues={project}
