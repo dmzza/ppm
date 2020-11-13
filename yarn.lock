@@ -1191,13 +1191,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blitzjs/cli@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/cli/-/cli-0.25.0-canary.6.tgz#4d440953fa7e9ac73aa47c7a6ec21afd2b074e83"
-  integrity sha512-kN7wsE3wg86e9inwvrSdMrIUz3FqE8r+/tnr3YFkKhbUwsJclXaNm/874iMG5UVfE+aYJYwmM06YpigrrBxwAw==
+"@blitzjs/cli@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/cli/-/cli-0.25.0.tgz#7b15c1d0148badf88543306b89bc7b74734ef3b6"
+  integrity sha512-mBtwOUu95iGwNqNXa2VpL4I3ea0dkiI5qTNhGZiSYCZMKQYHebONOSobBYL7hfEcgku1pMF6lKI3lHqWyfs/dw==
   dependencies:
-    "@blitzjs/display" "0.25.0-canary.6"
-    "@blitzjs/repl" "0.25.0-canary.6"
+    "@blitzjs/display" "0.25.0"
+    "@blitzjs/repl" "0.25.0"
     "@oclif/command" "1.5.20"
     "@oclif/config" "1.15.1"
     "@oclif/plugin-autocomplete" "0.2.0"
@@ -1224,18 +1224,18 @@
     tsconfig-paths "3.9.0"
     v8-compile-cache "2.1.1"
 
-"@blitzjs/config@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/config/-/config-0.25.0-canary.6.tgz#802157157184fcee6e39a7550a1de46d08993a78"
-  integrity sha512-ehj2iuouHtOZThbLpy4KuMjCFzBn5P/ap03ssEyPZ8ExfFSJRMW8MdbrJv4IU598OXVaZVuaz/5/jBmwvXl8Mg==
+"@blitzjs/config@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/config/-/config-0.25.0.tgz#55782c04c7e04cf14a33ad5b413012495997b26b"
+  integrity sha512-sJVyi3+ikkdBN5owOwKeGlgd1j6PswUqWXMdThe/CvQgOrB2n44QylOibqXm2NFnTNYAWNr7JMXKwl9wABYEVA==
 
-"@blitzjs/core@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/core/-/core-0.25.0-canary.6.tgz#933a0ceb6629760166c7288b0847dd83273b85ce"
-  integrity sha512-3icoWdDI7ggMxk4e3ZFJns4RM48swYRlMufvjHLY1WDQU6Tb3z8VsdHygR7sYkdaTrblKaRSuBgiCF3Px++CxA==
+"@blitzjs/core@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/core/-/core-0.25.0.tgz#9b010998f79d0a96f03667a67593b8801a3003a9"
+  integrity sha512-rnkvdEIoPfQzXlINQfxOs6D6WecT+ZghiFnykGXlRG6SJyT/SQsgapGei9QfFk5Q3FMZpgyKZqyApgMdp6keJQ==
   dependencies:
-    "@blitzjs/config" "0.25.0-canary.6"
-    "@blitzjs/display" "0.25.0-canary.6"
+    "@blitzjs/config" "0.25.0"
+    "@blitzjs/display" "0.25.0"
     bad-behavior "1.0.1"
     cookie-session "1.4.0"
     deepmerge "4.2.2"
@@ -1247,19 +1247,19 @@
     superjson "1.3.0"
     url "0.11.0"
 
-"@blitzjs/display@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/display/-/display-0.25.0-canary.6.tgz#c7ede6528ddea44b1f998f1a1e5663121459df1a"
-  integrity sha512-1y5Y0Tr4XICIKSBdvmJesQT+CM2CMg9yN/eRag16dFuh39Ub0HSVzS7r2FJ29+BpqwEPJBPMbLbkdLi/CD6Gfw==
+"@blitzjs/display@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/display/-/display-0.25.0.tgz#b38e4d49d1dab1e9608139116f49968bcdc57cb3"
+  integrity sha512-XwCtI5mNBHpOf4OI3z1RJD5iO0fQ0GvVDhtH15fQTmalHx9ltxkbdGc9nYsNGJlzfEtd/5rD5CMvqi7G3hA8LA==
   dependencies:
     chalk "4.0.0"
     ora "4.0.4"
     tslog "2.9.1"
 
-"@blitzjs/file-pipeline@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/file-pipeline/-/file-pipeline-0.25.0-canary.6.tgz#7eba06998b724d80d139069573bdebc3316a4ee6"
-  integrity sha512-w6xd7JqH+O1bVxy0xzwYVsixw58+DyYMIjyQN6pxKV2TGdWmUYnLv/K3RZ4HQm2KUDeGOmwoBV8oiqhflqv5Nw==
+"@blitzjs/file-pipeline@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/file-pipeline/-/file-pipeline-0.25.0.tgz#7ab38b75e114adb60134f093945dc1e744c249f3"
+  integrity sha512-mW9gc2ilX91m3e5ftDFzkrI75kUUxY34aUWfrRNksfZ8xC4CQNTqiccJngQyM+Tu5MNW8VSOd16MgVD/APsJQg==
   dependencies:
     chalk "4.0.0"
     chokidar "3.4.2"
@@ -1278,14 +1278,14 @@
     vinyl-file "3.0.0"
     vinyl-fs "3.0.3"
 
-"@blitzjs/generator@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-0.25.0-canary.6.tgz#489689d81c278235fc445e8b1074416063f1b2f5"
-  integrity sha512-xmpRn3dxsiEPUTDlyUnANI4Hlie0X115uM15ZxAUb1ZEe2Jk97sNFH4R0l47+46eHbKwl/+vvfQjdpyyrHxhbg==
+"@blitzjs/generator@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-0.25.0.tgz#5bb304c45281794914e63f6f65bdb6f1ea09459a"
+  integrity sha512-6uXxvyNSypsHja9x0YLVBRoGX17Fz9hKuqYEoPhCGd2XV+g1yMXlE9srOiGgPiyiwWQiruk0sGSr7EyhE0hG7w==
   dependencies:
     "@babel/core" "7.9.0"
     "@babel/plugin-transform-typescript" "7.9.4"
-    "@blitzjs/display" "0.25.0-canary.6"
+    "@blitzjs/display" "0.25.0"
     "@types/jscodeshift" "0.7.1"
     chalk "4.0.0"
     cross-spawn "7.0.3"
@@ -1303,15 +1303,15 @@
     username "5.1.0"
     vinyl "2.2.0"
 
-"@blitzjs/installer@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/installer/-/installer-0.25.0-canary.6.tgz#a88f8cbe82e082bba4b232c25459e03b93778a7d"
-  integrity sha512-BeXYF3BdiPdB8oi4Agzyf/JuzmS8NLgZic8LK7BIj0O6sel6wSQduyVleki9VssDboDrQC9AYMvqtSSk9+3lAg==
+"@blitzjs/installer@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/installer/-/installer-0.25.0.tgz#90a1d46844177b58d112aebd2737ca2839234a86"
+  integrity sha512-gKVCZA/awsE8C1Eu8EtogAY4ariD/22mawyjWSrcsswb9xW/RV67C+RGNYkY2HHujRb+wFBHCnZHuOl4aKACJQ==
   dependencies:
     "@babel/core" "7.9.0"
     "@babel/plugin-transform-typescript" "7.9.4"
-    "@blitzjs/display" "0.25.0-canary.6"
-    "@blitzjs/generator" "0.25.0-canary.6"
+    "@blitzjs/display" "0.25.0"
+    "@blitzjs/generator" "0.25.0"
     "@types/jscodeshift" "0.7.1"
     chokidar "3.4.2"
     cross-spawn "7.0.3"
@@ -1327,24 +1327,24 @@
     recast "0.19.1"
     ts-node "8.9.1"
 
-"@blitzjs/repl@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/repl/-/repl-0.25.0-canary.6.tgz#1f3f952387a69167f097d96c2bd213fabc31f1d4"
-  integrity sha512-kB2wZ4mrf0KR5ZSwazwCepaQqrUyz62p1k96hIj0lYGSwhqbZHf9MawxLzXrFUBligfQSSExNN7N/LSHbZ+OHA==
+"@blitzjs/repl@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/repl/-/repl-0.25.0.tgz#ab39d02b545f5fe4dc4bf570c69585c34d2b43d9"
+  integrity sha512-QrVXKp2fNDzT5WniX6mJv4Koa+SQImJvXFxkFWxPOLkep/YuaQoHRq2E7dJRsh7dXIfnyd1hiWt7dCGiNCT48w==
   dependencies:
     chokidar "3.4.2"
     globby "11.0.0"
     pkg-dir "4.2.0"
     progress "^2.0.3"
 
-"@blitzjs/server@0.25.0-canary.6":
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/@blitzjs/server/-/server-0.25.0-canary.6.tgz#b9684ed0515d0be5c3620472097456d124a92240"
-  integrity sha512-IhvgY2HJy+WlFR6EEGbL4P3fd4zXKeKDw5ObQSeelYyZ78MVmyk3MdGd3ikpt7rLZowmJjKmd7CS4leAkJb/vA==
+"@blitzjs/server@0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@blitzjs/server/-/server-0.25.0.tgz#df95723dc1e7495078faca87d86e40655c08ef26"
+  integrity sha512-OrMJEPF0crC1voVg9pDifQK7+vq/bwFmdpNH/8AwPIkA1D9dmJp5tBHgR5e+zNcoWxEqoMEhSl+s1gHuCUFZvQ==
   dependencies:
-    "@blitzjs/config" "0.25.0-canary.6"
-    "@blitzjs/display" "0.25.0-canary.6"
-    "@blitzjs/file-pipeline" "0.25.0-canary.6"
+    "@blitzjs/config" "0.25.0"
+    "@blitzjs/display" "0.25.0"
+    "@blitzjs/file-pipeline" "0.25.0"
     b64-lite "1.4.0"
     cookie "0.4.1"
     cross-spawn "7.0.3"
@@ -3270,16 +3270,16 @@ bl@^4.0.3:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
-blitz@0.25.0-canary.6:
-  version "0.25.0-canary.6"
-  resolved "https://registry.yarnpkg.com/blitz/-/blitz-0.25.0-canary.6.tgz#963e0d5fde989ea2a7e16a39be98a5097440f122"
-  integrity sha512-tBVsZi3HiyU+0nDviHEwUzLIsbq9P4HqxMdst0InZVjxYuNv4BpscgdFUMFwxxu7qhZeqZZC9CAoNB92urwSBw==
+blitz@0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/blitz/-/blitz-0.25.0.tgz#cd76f472980b50a410ace5b4e094e3950381697b"
+  integrity sha512-ipo6VWEbrTLJDW1DA7YdVvoIoDA7Nw1Q7a0SihCYrjAFImllXajG8ApuzAFMgVuai+PIdgh41YuSrglIGnyhpA==
   dependencies:
-    "@blitzjs/cli" "0.25.0-canary.6"
-    "@blitzjs/core" "0.25.0-canary.6"
-    "@blitzjs/generator" "0.25.0-canary.6"
-    "@blitzjs/installer" "0.25.0-canary.6"
-    "@blitzjs/server" "0.25.0-canary.6"
+    "@blitzjs/cli" "0.25.0"
+    "@blitzjs/core" "0.25.0"
+    "@blitzjs/generator" "0.25.0"
+    "@blitzjs/installer" "0.25.0"
+    "@blitzjs/server" "0.25.0"
     envinfo "7.7.2"
     os-name "3.1.0"
     pkg-dir "4.2.0"
